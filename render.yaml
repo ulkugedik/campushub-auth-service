@@ -2,7 +2,7 @@ databases:
   - name: auth-db
     plan: free
     databaseName: auth_db
-    user: postgres
+    user: auth_user
 
 services:
   - type: web
